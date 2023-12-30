@@ -1,0 +1,79 @@
+color-link default          "#f8f8f2,#1c1c1c"
+
+color-link selection        "#f8f8f2,#3f3452"
+color-link divider          "#373737"
+color-link message          "#f8f8f2,#5206d3"
+color-link error-message    "#000000,#f4005f"
+color-link scrollbar        "#6e7066,#4e4e4e"
+color-link line-number      "#858585,#222222"
+color-link current-line-number "#f8f8f2,#1c1c1c"
+color-link cursor-line      "#252525"
+color-link tabbar           "bold #1c1c1c,#919288"
+color-link statusline       "#1c1c1c,#55564f"
+color-link indent-char      "#505050,#1c1c1c"
+# In help etc:
+color-link special          "underlined #A6E22E,#1c1c1c" 
+# Shebang etc:
+color-link preproc          "#ff2d01,#1c1c1c"
+# _________________________________________________________
+
+# {}()[]
+color-link symbol.brackets  "#ffd700,#1c1c1c" 
+color-link symbol.braces    "#da70d6,#1c1c1c"
+color-link symbol.operator  "#F92672,#1c1c1c"
+color-link symbol.punctuation "#6e7066,#1c1c1c"
+
+
+color-link comment          "italic #6e7066,#1c1c1c"
+color-link todo             "underlined #98c47a,#1c1c1c"
+
+color-link type             "#66d9ef,#1c1c1c"
+color-link type.types       "italic #66d9ef,#1c1c1c"
+
+color-link constant         "italic #AE81FF,#1c1c1c"
+color-link constant.string  "#e6db74,#1c1c1c"
+color-link constant.special "#f92672,#1c1c1c"
+color-link constant.stringEscaped "#AE81FF,#1c1c1c"
+color-link constant.tplLiterals.expression "#A6E22E,#1c1c1c"
+color-link constant.quotes     "#6e7066,#1c1c1c"
+
+color-link statement        "#f92672,#1c1c1c"
+color-link statement.let    "italic #66d9ef,#1c1c1c"
+color-link statement.var    "italic #66d9ef,#1c1c1c"
+color-link statement.class  "italic #66d9ef,#1c1c1c"
+color-link statement.const  "italic #66d9ef,#1c1c1c"
+color-link statement.function "italic #66d9ef,#1c1c1c"
+
+color-link identifier          "#66d9ef,#1c1c1c"
+color-link identifier.class    "#66d9ef,#1c1c1c"
+color-link identifier.const    "#AE81FF,#1c1c1c"
+color-link identifier.function "bold #A6E22E,#1c1c1c"
+
+color-link identifier.special  "underline #A6E22E,#1c1c1c"
+# color-link identifier.macro
+# color-link identifier.var
+
+# Color Definitions for HTML Tags
+# color-link identifier.tag   "#f92672"         # HTML tag names
+# color-link symbol.tag       "#919289,#1c1c1c" # For html tags, among other things
+# /? for self-closing tags
+
+# color-link diff-added       "#00AF00"
+# color-link diff-modified    "#FFAF00"
+# color-link diff-deleted     "#D70000"
+
+# color-link gutter-error     "#CB4B16,#1c1c1c"
+# color-link gutter-warning   "#E6DB74,#1c1c1c"
+
+# # NO IDEA
+# color-link hlsearch         "#1c1c1c,#E6DB74"
+# color-link color-column     "#282828"           # ?
+# color-link underlined       "#D33682,#1c1c1c"   #?
+# color-link error            "bold #f4005f,#1c1c1c"
+
+# color-link constant.string.url "#f4005f,#1c1c1c"
+# constant.specialChar "#f4005f,#1c1c1c"
+# IGNORED
+# ignore
+# color-link preproc.shebang
+# color-link comment.bright (Some filetypes have distinctions between types of comments)
