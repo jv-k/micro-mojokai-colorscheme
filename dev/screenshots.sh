@@ -36,6 +36,7 @@ cat > "$CONFIG/settings.json" <<'EOF'
     "truecolor": "on",
     "hlsearch": true,
     "multiopen": "vsplit",
+    "statusformatr": "",
     "savecursor": false,
     "saveundo": false
 }
