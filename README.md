@@ -2,7 +2,7 @@
 
 Mojokai is a truecolor colorscheme for the [micro](https://micro-editor.github.io/) text editor. It uses Monokai colors on a dark `#1c1c1c` background.
 
-![micro with the Mojokai colorscheme. Two tabs are open. A JavaScript file shows comments, strings, keywords, numbers, and search matches in yellow.](img/screenshot.png)
+![micro with the Mojokai colorscheme. Two tabs are open. A TypeScript file shows comments, strings, keywords, types, and search matches in yellow.](img/screenshot.png)
 
 ## Requirements
 

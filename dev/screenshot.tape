@@ -24,11 +24,11 @@ Set WindowBarSize 40
 Set TypingSpeed 10ms
 
 Hide
-Type "micro -config-dir img/tmp/micro-config dev/sample/palette.js dev/sample/palette.go" Enter
+Type "micro -config-dir img/tmp/micro-config dev/sample/npm.ts dev/sample/width.ts" Enter
 Sleep 1.5s
 # Search, so hlsearch shows every match, and leave the cursor on a match.
 Ctrl+F
-Type "colors"
+Type "signal"
 Enter
 Sleep 800ms
 Show
