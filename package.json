@@ -4,8 +4,8 @@
   "private": true,
   "description": "Mojokai: a truecolor Monokai-style colorscheme for the micro editor",
   "scripts": {
-    "copy": "d=\"${MICRO_CONFIG_HOME:-$HOME/.config/micro}\" && mkdir -p \"$d/colorschemes\" && cp mojokai-tc.micro \"$d/colorschemes/\"",
-    "link": "d=\"${MICRO_CONFIG_HOME:-$HOME/.config/micro}\" && mkdir -p \"$d/colorschemes\" && ln -sf \"$PWD/mojokai-tc.micro\" \"$d/colorschemes/\"",
+    "copy": "./install.sh copy",
+    "link": "./install.sh link",
     "bump-release": "verbump --release --push origin",
     "screenshots": "./dev/screenshots.sh"
   },
