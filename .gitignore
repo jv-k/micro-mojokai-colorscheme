@@ -1,3 +1,4 @@
 img/tmp/
 node_modules/
 .DS_Store
+pnpm-lock.yaml
