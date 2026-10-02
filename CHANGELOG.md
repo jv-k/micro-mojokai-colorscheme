@@ -1,3 +1,13 @@
+## 1.0.4 (2026-10-02)
+- chore: updated package.json, updated CHANGELOG.md, bumped 1.0.3 -> 1.0.4
+- chore(repo): ignore pnpm-lock.yaml
+- docs(changelog): remove entries duplicated into 1.0.3
+- docs(readme): describe the screenshot as split panes, not tabs
+- docs(contributing): list screenshot prerequisites and how to install VerBump
+- fix(package): install via install.sh so copy works after link
+- fix(dev): keep the screenshot until vhs succeeds, check zsh and Fira Code
+- fix(theme): drop redundant default background, correct specialChar note
+
 ## 1.0.3 (2026-10-02)
 - chore: updated package.json, updated CHANGELOG.md, bumped 1.0.2 -> 1.0.3
 - docs(contributing): move maintainer steps out of the README
