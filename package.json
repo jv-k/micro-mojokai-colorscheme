@@ -1,13 +1,18 @@
 {
   "name": "micro-mojokai-theme",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "description": "Mojokai: a truecolor Monokai-style colorscheme for the micro editor",
   "scripts": {
-    "copy": "mkdir -p \"${MICRO_CONFIG_HOME:-$HOME/.config/micro}/colorschemes\" && cp *.micro \"${MICRO_CONFIG_HOME:-$HOME/.config/micro}/colorschemes/\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "copy": "d=\"${MICRO_CONFIG_HOME:-$HOME/.config/micro}\" && mkdir -p \"$d/colorschemes\" \"$d/syntax\" && cp mojokai-tc.micro \"$d/colorschemes/\" && cp syntax/typescript.yaml \"$d/syntax/\"",
+    "link": "d=\"${MICRO_CONFIG_HOME:-$HOME/.config/micro}\" && mkdir -p \"$d/colorschemes\" \"$d/syntax\" && ln -sf \"$PWD/mojokai-tc.micro\" \"$d/colorschemes/\" && ln -sf \"$PWD/syntax/typescript.yaml\" \"$d/syntax/\""
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "micro",
+    "colorscheme",
+    "monokai",
+    "truecolor"
+  ],
+  "author": "John Valai",
   "license": "ISC"
 }
