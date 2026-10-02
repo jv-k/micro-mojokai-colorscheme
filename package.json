@@ -5,7 +5,8 @@
   "description": "Mojokai: a truecolor Monokai-style colorscheme for the micro editor",
   "scripts": {
     "copy": "d=\"${MICRO_CONFIG_HOME:-$HOME/.config/micro}\" && mkdir -p \"$d/colorschemes\" \"$d/syntax\" && cp mojokai-tc.micro \"$d/colorschemes/\" && cp syntax/typescript.yaml \"$d/syntax/\"",
-    "link": "d=\"${MICRO_CONFIG_HOME:-$HOME/.config/micro}\" && mkdir -p \"$d/colorschemes\" \"$d/syntax\" && ln -sf \"$PWD/mojokai-tc.micro\" \"$d/colorschemes/\" && ln -sf \"$PWD/syntax/typescript.yaml\" \"$d/syntax/\""
+    "link": "d=\"${MICRO_CONFIG_HOME:-$HOME/.config/micro}\" && mkdir -p \"$d/colorschemes\" \"$d/syntax\" && ln -sf \"$PWD/mojokai-tc.micro\" \"$d/colorschemes/\" && ln -sf \"$PWD/syntax/typescript.yaml\" \"$d/syntax/\"",
+    "bump-release": "verbump --release --push origin"
   },
   "keywords": [
     "micro",
