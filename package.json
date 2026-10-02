@@ -1,6 +1,6 @@
 {
   "name": "micro-mojokai-theme",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": true,
   "description": "Mojokai: a truecolor Monokai-style colorscheme for the micro editor",
   "scripts": {

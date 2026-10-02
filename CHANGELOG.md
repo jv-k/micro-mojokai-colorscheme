@@ -1,3 +1,8 @@
+## 1.0.2 (2026-10-02)
+- chore: updated package.json, updated CHANGELOG.md, bumped 1.0.1 -> 1.0.2
+- docs(screenshot): re-render with two panes at 2x
+- docs(screenshot): two panes, render at 2x, drop colorcolumn
+
 ## 1.0.1 (2026-10-02)
 - chore: updated package.json, created CHANGELOG.md, bumped 1.0.0 -> 1.0.1
 - docs(screenshot): use TypeScript samples from macup
