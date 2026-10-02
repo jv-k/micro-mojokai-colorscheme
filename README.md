@@ -29,6 +29,8 @@ Mojokai is a truecolor colorscheme for the [micro](https://micro-editor.github.i
 
 3. In micro, press `Ctrl-e` and type `set colorscheme mojokai-tc`.
 
+   The `-tc` suffix means truecolor. micro uses the same suffix for its own truecolor colorschemes, for example `solarized-tc`.
+
 ## Install with an AI agent
 
 A coding agent, for example Claude Code or Codex, can do the installation for you. Read the prompt below, then copy it and give it to your agent:
