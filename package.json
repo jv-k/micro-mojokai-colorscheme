@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "copy": "cp *.micro ~/.config/micro/colorschemes",
+    "copy": "mkdir -p \"${MICRO_CONFIG_HOME:-$HOME/.config/micro}/colorschemes\" && cp *.micro \"${MICRO_CONFIG_HOME:-$HOME/.config/micro}/colorschemes/\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
