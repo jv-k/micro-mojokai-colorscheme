@@ -1,4 +1,5 @@
 color-link default          "#f8f8f2,#1c1c1c"
+# Groups that give no background use the one from `default`.
 
 color-link selection        "#f8f8f2,#3f3452"
 color-link divider          "#373737"
@@ -12,7 +13,7 @@ color-link tabbar           "bold #1c1c1c,#919288"
 color-link statusline       "#1c1c1c,#55564f"
 color-link statusline.inactive "#919288,#2e2e2e"
 color-link tabbar.active    "bold #1c1c1c,#f8f8f2"
-color-link indent-char      "#505050,#1c1c1c"
+color-link indent-char      "#505050"
 color-link color-column     "#282828"
 color-link hlsearch         "#1c1c1c,#e6db74"
 color-link match-brace      "#1c1c1c,#ae81ff"
@@ -23,54 +24,55 @@ color-link trailingws       "#d75f5f"
 color-link diff-added       "#00af00"
 color-link diff-modified    "#ffaf00"
 color-link diff-deleted     "#d70000"
-color-link gutter-error     "#cb4b16,#1c1c1c"
-color-link gutter-warning   "#e6db74,#1c1c1c"
-color-link gutter-info      "#66d9ef,#1c1c1c"
+color-link gutter-error     "#cb4b16"
+color-link gutter-warning   "#e6db74"
+color-link gutter-info      "#66d9ef"
 
 # In help etc:
-color-link special          "#a6e22e,#1c1c1c"
+color-link special          "#a6e22e"
 # Shebang etc:
-color-link preproc          "#ff2d01,#1c1c1c"
-color-link error            "bold #f4005f,#1c1c1c"
-color-link underlined       "underline #d33682,#1c1c1c"
+color-link preproc          "#ff2d01"
+color-link error            "bold #f4005f"
+color-link underlined       "underline #d33682"
 # _________________________________________________________
 
-# type.types, constant.quotes/stringEscaped/specialChar/tplLiterals.expression
-# and statement.let/var/class/const/function are only emitted by the separate
+# type.types, constant.quotes/stringEscaped/tplLiterals.expression and
+# statement.let/var/class/const/function are only emitted by the separate
 # github.com/jv-k/micro-typescript-syntax. Other syntaxes use the parent group.
+# constant.specialChar is also emitted by stock syntaxes such as Go, C and Java.
 
 # {}()[]
-color-link symbol.brackets  "#ffd700,#1c1c1c"
-color-link symbol.braces    "#da70d6,#1c1c1c"
-color-link symbol.operator  "#f92672,#1c1c1c"
-color-link symbol.punctuation "#6e7066,#1c1c1c"
+color-link symbol.brackets  "#ffd700"
+color-link symbol.braces    "#da70d6"
+color-link symbol.operator  "#f92672"
+color-link symbol.punctuation "#6e7066"
 # HTML/XML tags
-color-link symbol.tag       "#f92672,#1c1c1c"
+color-link symbol.tag       "#f92672"
 
-color-link comment          "italic #6e7066,#1c1c1c"
-color-link todo             "underline #98c47a,#1c1c1c"
+color-link comment          "italic #6e7066"
+color-link todo             "underline #98c47a"
 
-color-link type             "#66d9ef,#1c1c1c"
-color-link type.types       "italic #66d9ef,#1c1c1c"
+color-link type             "#66d9ef"
+color-link type.types       "italic #66d9ef"
 
-color-link constant         "italic #ae81ff,#1c1c1c"
-color-link constant.string  "#e6db74,#1c1c1c"
-color-link constant.special "#f92672,#1c1c1c"
-color-link constant.specialChar "#f4005f,#1c1c1c"
-color-link constant.stringEscaped "#ae81ff,#1c1c1c"
-color-link constant.tplLiterals.expression "#a6e22e,#1c1c1c"
-color-link constant.quotes     "#6e7066,#1c1c1c"
+color-link constant         "italic #ae81ff"
+color-link constant.string  "#e6db74"
+color-link constant.special "#f92672"
+color-link constant.specialChar "#f4005f"
+color-link constant.stringEscaped "#ae81ff"
+color-link constant.tplLiterals.expression "#a6e22e"
+color-link constant.quotes     "#6e7066"
 
-color-link statement        "#f92672,#1c1c1c"
-color-link statement.let    "italic #66d9ef,#1c1c1c"
-color-link statement.var    "italic #66d9ef,#1c1c1c"
-color-link statement.class  "italic #66d9ef,#1c1c1c"
-color-link statement.const  "italic #66d9ef,#1c1c1c"
-color-link statement.function "italic #66d9ef,#1c1c1c"
+color-link statement        "#f92672"
+color-link statement.let    "italic #66d9ef"
+color-link statement.var    "italic #66d9ef"
+color-link statement.class  "italic #66d9ef"
+color-link statement.const  "italic #66d9ef"
+color-link statement.function "italic #66d9ef"
 
-color-link identifier          "#66d9ef,#1c1c1c"
-color-link identifier.class    "#66d9ef,#1c1c1c"
-color-link identifier.const    "#ae81ff,#1c1c1c"
-color-link identifier.function "bold #a6e22e,#1c1c1c"
+color-link identifier          "#66d9ef"
+color-link identifier.class    "#66d9ef"
+color-link identifier.const    "#ae81ff"
+color-link identifier.function "bold #a6e22e"
 
-color-link identifier.special  "underline #a6e22e,#1c1c1c"
+color-link identifier.special  "underline #a6e22e"
