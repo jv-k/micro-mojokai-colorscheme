@@ -10,11 +10,29 @@ color-link current-line-number "#f8f8f2,#252525"
 color-link cursor-line      "#252525"
 color-link tabbar           "bold #1c1c1c,#919288"
 color-link statusline       "#1c1c1c,#55564f"
+color-link statusline.inactive "#919288,#2e2e2e"
+color-link tabbar.active    "bold #1c1c1c,#f8f8f2"
 color-link indent-char      "#505050,#1c1c1c"
+color-link color-column     "#282828"
+color-link hlsearch         "#1c1c1c,#e6db74"
+color-link match-brace      "#1c1c1c,#ae81ff"
+color-link tab-error        "#d75f5f"
+color-link trailingws       "#d75f5f"
+
+# Diff gutter (diffgutter) and linter gutter
+color-link diff-added       "#00af00"
+color-link diff-modified    "#ffaf00"
+color-link diff-deleted     "#d70000"
+color-link gutter-error     "#cb4b16,#1c1c1c"
+color-link gutter-warning   "#e6db74,#1c1c1c"
+color-link gutter-info      "#66d9ef,#1c1c1c"
+
 # In help etc:
-color-link special          "underline #a6e22e,#1c1c1c"
+color-link special          "#a6e22e,#1c1c1c"
 # Shebang etc:
 color-link preproc          "#ff2d01,#1c1c1c"
+color-link error            "bold #f4005f,#1c1c1c"
+color-link underlined       "underline #d33682,#1c1c1c"
 # _________________________________________________________
 
 # {}()[]
@@ -22,6 +40,8 @@ color-link symbol.brackets  "#ffd700,#1c1c1c"
 color-link symbol.braces    "#da70d6,#1c1c1c"
 color-link symbol.operator  "#f92672,#1c1c1c"
 color-link symbol.punctuation "#6e7066,#1c1c1c"
+# HTML/XML tags
+color-link symbol.tag       "#f92672,#1c1c1c"
 
 color-link comment          "italic #6e7066,#1c1c1c"
 color-link todo             "underline #98c47a,#1c1c1c"
@@ -50,13 +70,3 @@ color-link identifier.const    "#ae81ff,#1c1c1c"
 color-link identifier.function "bold #a6e22e,#1c1c1c"
 
 color-link identifier.special  "underline #a6e22e,#1c1c1c"
-
-# Optional overrides — commented out, so micro's defaults apply
-# color-link diff-added       "#00af00"
-# color-link diff-modified    "#ffaf00"
-# color-link diff-deleted     "#d70000"
-# color-link gutter-error     "#cb4b16,#1c1c1c"
-# color-link gutter-warning   "#e6db74,#1c1c1c"
-# color-link hlsearch         "#1c1c1c,#e6db74"
-# color-link color-column     "#282828"
-# color-link error            "bold #f4005f,#1c1c1c"
