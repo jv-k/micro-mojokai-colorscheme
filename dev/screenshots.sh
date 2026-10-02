@@ -34,8 +34,8 @@ cat > "$CONFIG/settings.json" <<'EOF'
 {
     "colorscheme": "mojokai-tc",
     "truecolor": "on",
-    "colorcolumn": 80,
     "hlsearch": true,
+    "multiopen": "vsplit",
     "savecursor": false,
     "saveundo": false
 }
