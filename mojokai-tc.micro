@@ -23,7 +23,6 @@ color-link symbol.braces    "#da70d6,#1c1c1c"
 color-link symbol.operator  "#F92672,#1c1c1c"
 color-link symbol.punctuation "#6e7066,#1c1c1c"
 
-
 color-link comment          "italic #6e7066,#1c1c1c"
 color-link todo             "underlined #98c47a,#1c1c1c"
 
@@ -77,3 +76,4 @@ color-link identifier.special  "underline #A6E22E,#1c1c1c"
 # ignore
 # color-link preproc.shebang
 # color-link comment.bright (Some filetypes have distinctions between types of comments)
+
