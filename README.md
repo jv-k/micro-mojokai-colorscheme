@@ -28,6 +28,24 @@ Mojokai is a truecolor colorscheme for the [micro](https://micro-editor.github.i
 
 3. In micro, press `Ctrl-e` and type `set colorscheme mojokai-tc`.
 
+## Install with an AI agent
+
+A coding agent, for example Claude Code or Codex, can do the installation for you. Read the prompt below, then copy it and give it to your agent:
+
+```text
+Install the Mojokai colorscheme for the micro text editor.
+
+1. Run `micro -version`. If micro is not installed, stop and tell me.
+2. Clone the repository and its submodule into a temporary directory:
+   git clone --recurse-submodules https://github.com/jv-k/micro-mojokai-colorscheme.git
+3. Find the micro config directory. Use $MICRO_CONFIG_HOME if it is set. If it is not set, use ~/.config/micro.
+4. Copy mojokai-tc.micro into the colorschemes/ directory of the config directory. Copy syntax/typescript.yaml into the syntax/ directory. Make the directories if they do not exist. Copy the files. Do not make symlinks to the temporary directory.
+5. If a file with the same name is already there, do not overwrite it. Show me the differences and ask me first.
+6. In settings.json in the config directory, set "colorscheme" to "mojokai-tc". Keep all other settings. If the file does not exist, make it.
+7. If the micro version is 2.0.15 or later, also set "truecolor" to "on" in settings.json. If the version is earlier, tell me to add `export MICRO_TRUECOLOR=1` to my shell profile. Do not change my shell profile.
+8. Delete the temporary directory. Then tell me which files you changed.
+```
+
 ## Turn on truecolor
 
 micro shows the exact colors only when truecolor is on. When truecolor is off, micro changes each color to the nearest color in a 256-color palette.
