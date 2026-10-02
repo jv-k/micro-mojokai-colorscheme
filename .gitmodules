@@ -1,0 +1,3 @@
+[submodule "syntax"]
+	path = syntax
+	url = https://github.com/jv-k/micro-typescript-syntax.git
