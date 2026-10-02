@@ -2,6 +2,8 @@
 
 Mojokai is a truecolor colorscheme for the [micro](https://micro-editor.github.io/) text editor. It uses Monokai colors on a dark `#1c1c1c` background.
 
+![micro with the Mojokai colorscheme. Two tabs are open. A JavaScript file shows comments, strings, keywords, numbers, and search matches in yellow.](img/screenshot.png)
+
 ## Requirements
 
 - micro 2.0 or later.
@@ -63,6 +65,16 @@ npm run bump-release
 The command uses [VerBump](https://github.com/jv-k/VerBump). VerBump reads the commit messages and suggests the next version. Then it updates `CHANGELOG.md`, makes a tag, pushes to `origin`, and makes a GitHub release.
 
 To see the changes before VerBump makes them, run `npm run bump-release -- --dry-run`.
+
+## Update the screenshot
+
+To make a new `img/screenshot.png`, run this command:
+
+```sh
+npm run screenshots
+```
+
+The command needs [vhs](https://github.com/charmbracelet/vhs) and micro. It starts micro with a clean config in `img/tmp/`, so your own micro settings do not change the result. To change what the screenshot shows, edit `dev/screenshot.tape` and the files in `dev/sample/`.
 
 ## License
 

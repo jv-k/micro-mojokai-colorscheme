@@ -6,7 +6,8 @@
   "scripts": {
     "copy": "d=\"${MICRO_CONFIG_HOME:-$HOME/.config/micro}\" && mkdir -p \"$d/colorschemes\" && cp mojokai-tc.micro \"$d/colorschemes/\"",
     "link": "d=\"${MICRO_CONFIG_HOME:-$HOME/.config/micro}\" && mkdir -p \"$d/colorschemes\" && ln -sf \"$PWD/mojokai-tc.micro\" \"$d/colorschemes/\"",
-    "bump-release": "verbump --release --push origin"
+    "bump-release": "verbump --release --push origin",
+    "screenshots": "./dev/screenshots.sh"
   },
   "keywords": [
     "micro",
