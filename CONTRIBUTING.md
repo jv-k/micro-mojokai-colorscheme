@@ -19,9 +19,15 @@ To make a new `img/screenshot.png`, run this command:
 npm run screenshots
 ```
 
-The command needs [vhs](https://github.com/charmbracelet/vhs) and micro. It starts micro with a clean config in `img/tmp/`, so your own micro settings do not change the result. To change what the screenshot shows, edit `dev/screenshot.tape` and the files in `dev/sample/`.
+The command needs [vhs](https://github.com/charmbracelet/vhs), micro, zsh, and the Fira Code font. It starts micro with a clean config in `img/tmp/`, so your own micro settings do not change the result. To change what the screenshot shows, edit `dev/screenshot.tape` and the files in `dev/sample/`.
 
 ## Make a release
+
+The release script needs [VerBump](https://github.com/jv-k/VerBump). It is not an npm package, so install it with Homebrew first:
+
+```sh
+brew install jv-k/tap/verbump
+```
 
 To make a release, run this command:
 
