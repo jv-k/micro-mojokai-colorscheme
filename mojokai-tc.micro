@@ -35,6 +35,10 @@ color-link error            "bold #f4005f,#1c1c1c"
 color-link underlined       "underline #d33682,#1c1c1c"
 # _________________________________________________________
 
+# type.types, constant.quotes/stringEscaped/specialChar/tplLiterals.expression
+# and statement.let/var/class/const/function are only emitted by the separate
+# github.com/jv-k/micro-typescript-syntax. Other syntaxes use the parent group.
+
 # {}()[]
 color-link symbol.brackets  "#ffd700,#1c1c1c"
 color-link symbol.braces    "#da70d6,#1c1c1c"
