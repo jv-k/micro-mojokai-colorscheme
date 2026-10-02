@@ -54,6 +54,25 @@ micro shows the exact colors only when truecolor is on. When truecolor is off, m
 - In micro 2.0.15 and later, press `Ctrl-e` and type `set truecolor on`.
 - In earlier versions, set the variable `MICRO_TRUECOLOR=1` before you start micro.
 
+## Update
+
+How you update depends on how you installed Mojokai:
+
+- If you used `npm run copy`, go to your clone of this repository. Run `git pull`, then run `npm run copy` again.
+- If you used `npm run link`, go to your clone of this repository and run `git pull`. The symlink points to the new file.
+- If you used the AI agent prompt, give the prompt to your agent again. The agent shows you the differences and asks before it replaces the old file.
+
+Then, in micro, press `Ctrl-e` and type `reload`. Or close micro and start it again.
+
+## Change the theme
+
+1. Install with `npm run link`, so that micro reads the file in this repository.
+2. Edit `mojokai-tc.micro`. Each line sets the style of one color group, for example `color-link comment "italic #6e7066,#1c1c1c"`.
+3. In micro, press `Ctrl-e` and type `reload` to see the change.
+4. Run `npm run screenshots` to make a new screenshot. Refer to [Update the screenshot](#update-the-screenshot).
+5. Commit the changes. Use [Conventional Commits](https://www.conventionalcommits.org/), for example `fix(theme): ...` or `feat(theme): ...`. VerBump uses these messages to choose the next version.
+6. Make a release. Refer to [Make a release](#make-a-release).
+
 ## Make a release
 
 To make a release, run this command:
